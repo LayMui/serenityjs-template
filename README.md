@@ -14,6 +14,12 @@ Once you have the code on your computer, use your computer terminal to run the f
 ```
 yarn
 ```
+
+## To get started
+```
+1. Create the feature file
+2. Create a folder step-defintions and add the steps file
+```
 ## To run your tests
 `yarn run test` runs test scenarios with the tag @test 
 
