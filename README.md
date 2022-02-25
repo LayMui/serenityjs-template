@@ -14,13 +14,16 @@ Once you have the code on your computer, use your computer terminal to run the f
 ```
 yarn
 ```
+
+To update the version
+```yarn upgrade --latest```
+
 ## To run your tests
 `yarn run test` runs test scenarios with the tag @test 
 
 ## To view the report after the testrun
 `yarn run report`
 
-references:
-https://rapidapi.com/community/api/open-weather-map/
+
 
 

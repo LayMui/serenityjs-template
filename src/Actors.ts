@@ -10,7 +10,7 @@ export class Actors implements Cast {
 
     prepare(actor: Actor): Actor {
         return actor.whoCan(
-            CallAnApi.at(process.env.WEATHER_SERVICE_BASE_URL),
+            CallAnApi.at(process.env.BASE_URL),
             TakeNotes.usingAnEmptyNotepad(),
         );
     }
