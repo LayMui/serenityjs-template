@@ -11,12 +11,12 @@
     "test:report": "serenity-bdd run --features ./features/*",
     "lint": "eslint --ext ts --config .eslintrc.js .",
     "lint:fix": "yarn run lint -- --fix",
-    "report": "open target/site/serenity/index.html", 
+    "report": "open target/site/serenity/index.html",
     "report:window": "start target/site/serenity/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaradigitallabs/sh-common-services-serenityjs.git"
+    "url": "git+https://github.com/LayMui/serenityjs-template.git"
   },
   "keywords": [
     "serenity-js",

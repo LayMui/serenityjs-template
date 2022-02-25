@@ -4,7 +4,10 @@ import { actorCalled, actorInTheSpotlight, ArtifactArchiver, configure, engage }
 import { SerenityBDDReporter } from '@serenity-js/serenity-bdd';
 
 import { Actors } from '../../src';
-const dotenv = require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` })
+if (!process.env.CIRCLECI) {
+  require('dotenv').config({ path: `.env` })
+}
+
 
 /**
  * @desc
