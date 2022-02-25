@@ -14,19 +14,13 @@ Once you have the code on your computer, use your computer terminal to run the f
 ```
 yarn
 ```
-
-To upgrade to latest version
-```yarn upgrade --latest```
-
-## To get started
-```
-1. Create the folder at the root 'features'
-2. Create your first feature file
-3. At the src folder, create sub-folder 'step-defintions' and add the steps file
-4. At the src folder, create sub-folder 'tasks' and add your task class file
-```
 ## To run your tests
 `yarn run test` runs test scenarios with the tag @test 
 
 ## To view the report after the testrun
 `yarn run report`
+
+references:
+https://rapidapi.com/community/api/open-weather-map/
+
+
